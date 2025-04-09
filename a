@@ -1,0 +1,440 @@
+[33mcommit ebb5e3551a9d93c0ee95f0b767dd878b8927e702[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlab_scr1_sim[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/lab_scr1_sim[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Stanislav <stanislav.kokoulin@syntacore.com>
+Date:   Fri Nov 15 17:22:48 2024 +0300
+
+    riscv isa test macro definition update
+
+[33mcommit 4d3708c2d198e4cb9ad705ed05b688fe5cb05787[m
+Author: Stanislav <stanislav.kokoulin@syntacore.com>
+Date:   Thu Sep 26 14:59:37 2024 +0300
+
+    binutils: illegal operands on latest binutils 2.42
+
+[33mcommit 8b1712f0bb944388579b79570318a005832f5d26[m
+Author: Stanislav <stanislav.kokoulin@syntacore.com>
+Date:   Mon May 6 14:39:53 2024 +0300
+
+    update Readme
+
+[33mcommit d2b657bdaeac7e272b74aec8e5e493ee05a0d1eb[m
+Author: Stanislav <stanislav.kokoulin@syntacore.com>
+Date:   Thu Feb 29 16:41:43 2024 +0300
+
+    Build scripts update
+      * newlib_nano support addition
+      * adding assembly files addition
+      * fix opt level and linker options
+
+[33mcommit 7432bd0a61ecc3181c441ed6c3dd37d394b21c2a[m
+Author: Stanislav <stanislav.kokoulin@syntacore.com>
+Date:   Wed Sep 20 15:46:12 2023 +0300
+
+    Updated modern tools support
+      * add verilator v5.x support
+      * explicitly pass Zicsr and Zifencei extensions to support the latest
+      * toolchain versions
+      * update simulators last verified versions
+
+[33mcommit d8ba8e50ecce3bfdd47e0422a9c024384f73df60[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri Apr 22 21:05:02 2022 +0300
+
+    Fixed issues with building isa and compliance tests for MIN configuration; fixed crt files
+
+[33mcommit a20ea056631306c2d24ff0f36961b36ffc799fc6[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri Jan 14 20:58:47 2022 +0300
+
+    1) riscv-arch test suite is added; 2) Verilator issues are fixed; 3) Code cleanup; 4) MIMPID = 0x22011200;
+
+[33mcommit 9fa7100b58eb0a5f3190cbbdaa7b469b1e7caa02[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Mon Jun 21 13:43:30 2021 +0300
+
+    Fixed incorrect reset connection for TDU instance
+
+[33mcommit 1f481a1a67944882e1e59dabf114e916c8c4d801[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 18 12:56:22 2021 +0300
+
+    SCR1 Release 2021'05: MIMPID = 0x21051400: synthesis issues eliminated; XPROP feature added; several architectural issues fixed
+
+[33mcommit e56658ea25a91dca29055a6735fe82bb197a7ecc[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Mon Apr 19 18:12:15 2021 +0300
+
+    Fixed synthesis issues
+
+[33mcommit 73cd7439fe25dff228aae29eb1d915427ccb6aa6[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Mon Feb 8 23:34:58 2021 +0300
+
+    Fix Clock Control reset
+
+[33mcommit 3d3b544c995ebec4625150e943d985aea733809f[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Sun Nov 15 17:44:01 2020 +0300
+
+    Update reference SHA
+
+[33mcommit c8a6a6dca87ef0de8f8f99cd14277544d36b9d1a[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Sun Nov 15 17:39:31 2020 +0300
+
+    Remove extra files
+
+[33mcommit 02b3fb038ed43f9e8b0dfb72e63062de404bfaff[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Sat Nov 14 23:38:50 2020 +0300
+
+    Update readme
+
+[33mcommit a00178c93a26087edf1a5ffeb7fdaee4ffac5140[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Sat Nov 14 23:31:32 2020 +0300
+
+    Add test submodules
+
+[33mcommit 7f1cca41768d3ee5ca8f2dc7d5a81be058646afb[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Sat Nov 14 23:15:33 2020 +0300
+
+    List of the updates:
+    1) Major RTL update
+    2) Sim env update
+
+[33mcommit 0623e7f21b9ae7c3880d2c32683b2b03f09e20a7[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue Aug 4 11:55:59 2020 +0300
+
+    default TCM parameter set to zero
+
+[33mcommit feaae9e097eaf0b92dc77d8516796c1eabc970e4[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Thu Jul 16 17:01:33 2020 +0300
+
+    List of the updates:
+    1) Fixed TCM option for simulation
+    2) Updated support for RISC-V Compliance tests
+
+[33mcommit c636ac1ae0cfee0de5f023fbe07c09149c2a19ad[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Wed Jun 17 20:52:22 2020 +0300
+
+    List of the updates:
+    1) Verilator v4.034 support
+    2) Fixed vectored_isr_sample test
+    3) Fixed RISC-V ISA test for arch=RVI
+    4) Fixed RISC-V Compliance test references
+    5) Fixed assembling with gnu toolchain 9.2
+
+[33mcommit ec6abced26e699e7bc53d64c78e5857b9328175c[m
+Merge: 581a21f 29d6175
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Tue Jan 28 16:56:14 2020 +0300
+
+    Merge pull request #19 from wsnyder/fix_shell_errors
+    
+    On an error in e.g. Verilator, stop the build process.
+
+[33mcommit 29d617503477f541626cd0a566b61bd8143154ac[m
+Author: Wilson Snyder <wsnyder@wsnyder.org>
+Date:   Sun Jan 26 15:06:11 2020 -0500
+
+    On an error in e.g. Verilator, stop the build process.
+    
+    Signed-off-by: Wilson Snyder <wsnyder@wsnyder.org>
+
+[33mcommit 581a21fe414d987debfb90fd7826508472e8264d[m
+Author: Ekaterina Berezina <ekaterina.berezina@syntacore.com>
+Date:   Fri Dec 13 21:15:46 2019 +0300
+
+    Documentation update
+
+[33mcommit 29b9dd9dca1a69942300e9be45709491924aedc1[m
+Author: Alexander Redkin <ar-sc@users.noreply.github.com>
+Date:   Wed Dec 4 10:46:30 2019 +0300
+
+    Update README.md
+
+[33mcommit 9bc6cbbbd3670040720d8e39e7f569b3f2796df6[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri Sep 6 12:44:41 2019 +0300
+
+    Package entity replaced by header parameter declaration; MIMPID=0x19083000 (kudos pascalgouedo)
+
+[33mcommit 30b6ad1777333820de80a440fbc9ed96298cf19c[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue Jul 2 20:43:39 2019 +0300
+
+    1) compliance test suite results verification updated; 2) fixed trap handler for RVE configurations; 3) fixed global pointer initialization; 4) "Hello" test added
+
+[33mcommit 44cb6e3da22f726f86946f09aeb1263a6a2c2574[m
+Merge: 25fe464 5e4e1bc
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Mon Jul 1 19:51:51 2019 +0300
+
+    Merge pull request #10 from pascalgouedo/master
+    
+    Global Pointer initialization and use
+
+[33mcommit 5e4e1bc0c954478545fba474472d7e285c715d14[m
+Author: Pascal GOUEDO <pascal.gouedo@st.com>
+Date:   Wed Jun 19 17:09:47 2019 +0200
+
+    In some cases of compilation, incorrect code was generated (use of GP before being initialized).
+    These updates ensure correct code generation as it is aligned with GCC spec about Global Pointer initialization and use (either in link scripts or assembly).
+
+[33mcommit 25fe46414aab1325e9ee13c52781491f637939fa[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Mon Apr 8 18:18:58 2019 +0300
+
+    added support for verilator waveforms; minor code cleanup and CP improvements
+
+[33mcommit 2c08110fc1deaf5b8bfa81d1502e0238a8cae818[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Mar 21 17:53:25 2019 +0300
+
+    Debug subsystem updated to comply with 0.13 debug spec; License upgraded to SHL 2.0
+
+[33mcommit fd32924d35795db56498f974dd2c17e095199dda[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Mon Jan 21 16:55:26 2019 +0300
+
+    AHB bridge issue fixed, instruction retirement delay tables updated in EAS
+
+[33mcommit c3f0cf9991a13ca9517dc2f4f7b615f34e8f4bfa[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Jan 10 18:25:32 2019 +0300
+
+    1) marchid changed to 0x8; 2) EDA compatibility fix
+
+[33mcommit 19fcc6cdfd6f2ed7d3ff5fa2ed135df554f4c12e[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Mon Oct 15 13:47:34 2018 +0300
+
+    Fixed memory error response bug in the AHB bridge
+
+[33mcommit 3308ded671d5ac66ff03645320f58fff326daaaa[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Sep 20 18:50:53 2018 +0300
+
+    1) Verilator support added; 2) coremark and compliance tests added; power optimization
+
+[33mcommit 952a9015d3979b9f59f7612f4f33104af085ad62[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri May 25 16:40:46 2018 +0300
+
+    added user manual
+
+[33mcommit f897293f2d1d78ea58d9e66a778f18bee332f244[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri May 25 15:20:37 2018 +0300
+
+    Regular update: added user manual, number of configurability and TB improvements, fixes for better compatibility with FPGA synthesis tools
+
+[33mcommit 1e81f07c723d522729bce2e1fe1f4b209e903822[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Wed Mar 14 19:51:43 2018 +0300
+
+    Updated EAS
+
+[33mcommit eeed3fca560c9819485955bd577eaa8d7a4cb114[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Wed Mar 14 19:51:09 2018 +0300
+
+    False path fixes in ALU/EXU/CSR
+
+[33mcommit 76fff6933e9f10317ee386f933954de8a8788e50[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Wed Mar 14 19:50:23 2018 +0300
+
+    Added names for generated block
+
+[33mcommit 283dd0dc49d75a99aaaeebd97cf96aad77d53ec3[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Wed Mar 14 19:49:34 2018 +0300
+
+    Added IRQ support to AXI memory testbench
+
+[33mcommit 6d75b940fe6f5fc48d8a4e4c0c069843ad3f6096[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Wed Mar 14 19:47:18 2018 +0300
+
+    Vectored interrupts enabled by default
+
+[33mcommit ddeab432396d746d76f434c3bcc826b8a440cc2a[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Wed Mar 14 19:46:23 2018 +0300
+
+    Added vectored_isr_sample test
+
+[33mcommit 2548fd360e482c940ccf6c4cd1309b9dfe93c250[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri Jan 12 19:14:31 2018 +0300
+
+    Updated makefiles for default 'riscv64-unknown-elf-' prefix (added proper ARCH and ABI). Added default top_module file name
+
+[33mcommit 0aa827e7e68e5eccad8d234a698aa5ab4175c037[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri Dec 29 22:04:01 2017 +0300
+
+    Update README.md
+
+[33mcommit a0119a9efe1e09921411cdfb4ca5e12724e7c0a1[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Oct 12 12:36:33 2017 +0300
+
+    Added partially writable MTVEC support; Clock control disabled for default configuration; EAS updated
+
+[33mcommit 332e6320aea1276e5f1dc5edec2dabab8507c3c3[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Oct 12 12:33:00 2017 +0300
+
+    Reset for scr1_timer changed from "external reset" to "core reset"
+
+[33mcommit 048a27314649f07ef494fb3c6271fcb26718fac0[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Oct 12 12:30:38 2017 +0300
+
+    Removed "synthesis" pragmas
+
+[33mcommit cbe5a3488704caff69e0bfc79804a7536356cd93[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Oct 12 12:26:03 2017 +0300
+
+    Added AXI interface support
+
+[33mcommit 1348b8a501c4cdf8e6b63cdfd2487648cc9c9af7[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Thu Sep 14 19:09:29 2017 +0300
+
+    Restored license file for the inherited code
+
+[33mcommit c0762fe4c21c1f20e387f6848a6bef9799e4af4d[m
+Author: Alexander Redkin <alexander.redkin@syntacore.com>
+Date:   Fri Sep 8 20:55:36 2017 +0300
+
+    updated SCR1 timer facilities, refined EAS, minor code clean-up
+
+[33mcommit e33b2872e7680e8d60bf056cd47286410581c208[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Sat Aug 19 13:14:39 2017 +0300
+
+    EAS updated: includes dbgc changes nd new configurable knobs
+
+[33mcommit e0374a99e2fb38fc6727b0613ebc67ef6ae5d5a7[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Sat Aug 19 13:12:31 2017 +0300
+
+    1)changed DBG_SCRATCH address, changed TAPC IDCODE, TARGET_ID register and PLVL fields added 2) re-factored configuration knobs
+
+[33mcommit 34ab0cb69462b8f6dea9b4cbe749304bcb48979e[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Sat Aug 19 13:09:00 2017 +0300
+
+    dp_memory updated: support easy mapping to memory blocks for altera and xilinx
+
+[33mcommit 7d08825a27e827e72123e831a6cc3052a04ad667[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Sat Aug 19 13:05:45 2017 +0300
+
+    Tests updated to support execution from TCM
+
+[33mcommit aab79ef921acb4f2bc3170623d1259e0910deb22[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue Aug 8 17:14:19 2017 +0300
+
+    Missed include file was added
+
+[33mcommit cca4b80f3f0bdd5a72fbf116bed2286689d3bf44[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Fri Jul 14 14:59:16 2017 +0300
+
+    Updated to comply with privileged ISA specification v1.10 and user ISA specification v2.2
+
+[33mcommit 47a47a66c1f29b86103598e68883aeb2786b38a2[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 30 19:13:50 2017 +0300
+
+    Added initial assignment for JTAG signals; Commented not-used AHB signals to reduce simulator warnings.
+
+[33mcommit c1394e5fddbb7da7dce16bdb521c380d95660813[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 30 19:11:32 2017 +0300
+
+    Changed asserts from "posedge clk" to "negedge clk"; Updated "ifdef" configuration
+
+[33mcommit 0b7af4728209877e92f87ce1f1ae519b943f871c[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 16 21:52:35 2017 +0300
+
+    License file added
+
+[33mcommit 15a4ef419945eed1229d4e945046e8e175578f3d[m
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 16 20:26:16 2017 +0300
+
+    1) The repo structure refactored; 2) Added Dhrystone21 test; 3) Added tests completion summary; 4) Aggregated tracelog file; 5) NCSIM support;
+
+[33mcommit b43b5232a32e91477085f25b28c31ff5409c763c[m
+Merge: c6ef67b f97a310
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 16 18:12:19 2017 +0300
+
+    Merge pull request #2 from golikovav/master
+    
+    ncsim support in makefile
+
+[33mcommit c6ef67ba6d4ebd84dca7caf3000e40992b8bb62e[m
+Merge: ad2ddf2 9c02e9f
+Author: Dmitri Pavlov <dmitri.pavlov@syntacore.com>
+Date:   Tue May 16 18:11:52 2017 +0300
+
+    Merge pull request #1 from lomax/master
+    
+    Made the make tests pass to succeed for the first run
+
+[33mcommit f97a3108b5387be079db7f4e3f580e2510186edb[m
+Author: Golikov Andrey V <golikov.a@milandr.ru>
+Date:   Mon May 15 15:15:48 2017 +0300
+
+    Modified trace module, to prevent file clear in the set of tests
+
+[33mcommit 393546915bffd4ea5942eadc23affb130d83f8cd[m
+Author: Golikov Andrey V <golikov.a@milandr.ru>
+Date:   Mon May 15 15:12:03 2017 +0300
+
+    Added 64 bit mode key to run simulation in cadence simvision
+    Added key to scheduling semantics from SV 3.1a LRM for cadence simvision
+
+[33mcommit c43d984a898e6ce1f4fa92839e7cdcb30d3f8107[m
+Author: Golikov Andrey V <golikov.a@milandr.ru>
+Date:   Wed May 10 17:54:48 2017 +0300
+
+    - Makefile ready to use with cadence ncsim
+    - Fixed paths declaration errors
+
+[33mcommit 9c02e9fbf176e9ce491253c01bcbe8a495c9b5b5[m
+Author: Maxim Loparev <loparev.m@ic-design.ru>
+Date:   Thu May 11 10:25:49 2017 +0300
+
+    Made the make tests pass to succeed for the first run
+    
+    Don't know exact reason, but make doesn't like the ending / in directory
+    in prerequisites and fails the first make tests pass with message that no rule
+    found for add.hex target. Second make tests run builds all the tests.
+    Removing ending / from bld_dir solve the problem and make tests builds from the
+    first run.
+
+[33mcommit ad2ddf2fe371ecd20f5176a4bc5714a9c33600e9[m
+Author: Alexander Redkin <alexander.redkin@syntacore.com>
+Date:   Tue May 9 20:25:36 2017 +0300
+
+    fixed spec numbering issue
+
+[33mcommit f77b921f42f2e6a40816ebe3687f03fe47940124[m
+Author: Alexander Redkin <alexander.redkin@syntacore.com>
+Date:   Tue May 9 07:31:20 2017 +0300
+
+    initial public commit
